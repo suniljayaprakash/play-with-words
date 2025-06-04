@@ -48,6 +48,11 @@ next-env.d.ts
 *.pyd
 __pycache__/
 venv/
+backend/*.pyc
+backend/*.pyo
+backend/*.pyd
+backend/__pycache__/
+backend/venv/
 
 # Django
 db.sqlite3
