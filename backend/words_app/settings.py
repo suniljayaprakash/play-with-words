@@ -37,6 +37,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'api',  # Include the `api` app
+    'rest_framework',  # Django REST Framework for API development
+    'corsheaders',  # For handling CORS
+]
+
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:3000",  # Next.js frontend
 ]
 
 MIDDLEWARE = [
